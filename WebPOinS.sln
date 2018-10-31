@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPOinS", "WebPOinS\WebPOinS.csproj", "{ADBA3837-1EB5-480D-8589-63F5A276E377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPOinS.Shared", "WebPOinS.Shared\WebPOinS.Shared.csproj", "{93F5CCA5-6CE4-4FA6-A12F-8E0E5D18254C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADBA3837-1EB5-480D-8589-63F5A276E377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBA3837-1EB5-480D-8589-63F5A276E377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBA3837-1EB5-480D-8589-63F5A276E377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBA3837-1EB5-480D-8589-63F5A276E377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F5CCA5-6CE4-4FA6-A12F-8E0E5D18254C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F5CCA5-6CE4-4FA6-A12F-8E0E5D18254C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F5CCA5-6CE4-4FA6-A12F-8E0E5D18254C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F5CCA5-6CE4-4FA6-A12F-8E0E5D18254C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C94FFB8-2430-477A-A89B-5D162ADC78EA}
+	EndGlobalSection
+EndGlobal

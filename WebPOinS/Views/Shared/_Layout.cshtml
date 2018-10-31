@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href='@Url.Content("~/css/swiper.css")'>
+    <link rel="stylesheet" href='@Url.Content("~/css/fontawesome.css")'>
+    <link rel="stylesheet" href='@Url.Content("~/css/main.css")'>
+    <link href="@Url.Content("~/Content/fontAppleChancery.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/fontHelvatica.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/fontRoboto.css")" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POinS | @ViewBag.Title</title>
+    <link rel="shortcut icon" href="@Url.Content("~/Images/icons/favicon.ico")" type="image/x-icon" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href='@Url.Content("~/Libaries/bootstrap/dist/css/bootstrap.min.css")'>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href='@Url.Content("~/Libaries/font-awesome/css/font-awesome.min.css")'>
+    <link href="@Url.Content("~/Libaries/jquery.bxslider/jquery.bxslider.min.css")" rel="stylesheet" />
+    <!-- jQuery -->
+    <script src="@Url.Content("~/Libaries/jquery/dist/jquery.min.js")"></script>
+    <link href="@Url.Content("~/Content/style.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/common.css")" rel="stylesheet" />
+
+    <!-- add link css by tu -->
+    <link rel="stylesheet" href='@Url.Content("~/css/extension.css")'>
+    <link rel="stylesheet" href='@Url.Content("~/css/Montserrat.css")'>
+    <link rel="stylesheet" href='@Url.Content("~/css/AlegreyaSans.css")'>
+</head>
+<body>
+    <div class="navbar navbar-inverse mem-header navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="site-logo navbar-brand" style="text-align: left; padding-top: 1%;">
+                    <a class="site-logo__link" href="@Url.Action("Index","Home")" rel="home" title="Newstead" style="text-decoration:none">
+                        <img src="@Url.Content("~/Images/Logo2.png")" alt="POinS" class="site-link__img img-header1" style="width:7%;">
+                        <img src="@Url.Content("~/Images/logo2.1.png")" alt="POinS" class="site-link__img img-header2" style="width:14%">
+
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-collapse collapse site-menu">
+                <ul class="nav navbar-nav menu" id="main-menu">
+                    <li id="menu-item-699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699">
+                        <a href="@Url.Action("Index","Home")" class="Home">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li id="menu-item-699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699">
+                        <a href="@Url.Action("Index","POinSWallet")" class="POinSWallet">
+                            <span>POinS Wallet</span>
+                        </a>
+                    </li>
+
+                    <li id="menu-item-699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699">
+                        <a href="@Url.Action("Index","Product")" class="Product">
+                            <span>Link App</span>
+                        </a>
+                    </li>
+
+                    <li id="menu-item-699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699">
+                        <a href="@Url.Action("Index","Contact")" class="Contact">
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+
+                    <li id="menu-item-699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699 end-item">
+                        <a href="@Url.Action("Index","About")" class="About">
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clsBorder"></div>
+    </div>
+
+    <div class="body-content">
+        <div class="mcontainer">
+            @RenderBody()
+        </div>
+
+        <footer id="colophon" class="site-footer default" role="contentinfo">
+            <div style="border-top: 1px dashed #808080 !important;margin-top:10px"></div>
+            <div class="footer-sidebar-2 sidebar container footer-container">
+                <ul id="footer-sidebar-2">
+                    <li id="nav_menu-2" class="widget widget_nav_menu fttop">
+                        <h2 class="widgettitle">
+                            OUR PRODUCTS
+                        </h2>
+                        <div class="menu-features-menu-container">
+                            <ul id="menu-features-menu" class="menu">
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">POinS Wallet</a>
+                                </li>
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">POinS Link App</a>
+                                </li>
+                                @*<li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">Enterprise</a>
+                                </li>*@
+                            </ul>
+                        </div>
+                    </li>
+
+                    @*<li id="nav_menu-2" class="widget widget_nav_menu fttop">
+                        <h2 class="widgettitle">
+                            ABOUT US
+                        </h2>
+                        <div class="menu-features-menu-container">
+                            <ul id="menu-features-menu" class="menu">
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">About POinS</a>
+                                </li>
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">Careers</a>
+                                </li>
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">Media</a>
+                                </li>
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">The POinS Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>*@
+
+                    <li id="nav_menu-2" class="widget widget_nav_menu fttop">
+                        <h2 class="widgettitle">
+                            SUPPORT
+                        </h2>
+                        <div class="menu-features-menu-container">
+                            <ul id="menu-features-menu" class="menu">
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="@Url.Action("TermsAndCondition", "Home", new { area = "" })">Privacy & Terms Of Service </a>
+                                </li>
+                                @*<li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">Merchant Resources</a>
+                                </li>
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">Privacy & Terms of Service</a>
+                                </li>
+                                <li id="menu-item-805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805">
+                                    <a href="javascript:void(0)">Competition Newstead</a>
+                                </li>*@
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="widget widget-laster" style="text-align:right;width:25%;margin-right:0px !important;float:right">
+                        <h2 class="widgettitle">
+                            <a class="site-logo__link_foolter" href="javascript:void(0)" rel="home" title="Newstead">
+                                <img src="@Url.Content("~/Images/LOGO-POinS-03.jpg")" alt="CSC" class="site-link__img" style="width:32%">
+                            </a>
+                            <a class="site-logo__link_foolter" href="javascript:void(0)" rel="home" title="Newstead">
+                                <img src="@Url.Content("~/Images/LOGOPOinSLink-04.jpg")" alt="CSC" class="site-link__img" style="width:32%">
+                            </a>
+                        </h2>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" title="facebook"><span class="fa fa-facebook" style="font-size:25px"></span></a>
+                                &nbsp;&nbsp;&nbsp;
+                                <a href="javascript:void(0)" title="twitter"><span class="fa fa-twitter" style="font-size:25px"></span></a>
+                                &nbsp;&nbsp;&nbsp;
+                                <a href="javascript:void(0)" title="google"><span class="fa fa-google-plus" style="font-size:25px"></span></a>
+                                &nbsp;&nbsp;&nbsp;
+                                <a href="javascript:void(0)" title="tumblr"><span class="fa fa-tumblr" style="font-size:25px"></span></a>
+                                &nbsp;&nbsp;&nbsp;
+                                <a href="javascript:void(0)" title="rss"><span class="fa fa-rss" style="font-size:25px"></span></a>
+                            </li>
+                        </ul>
+                        <div class="textwidget">
+                            <div class="contactinfo">
+                                © 2015 - Newstead Technologies Pte. Ltd. <br />
+                                180 Kitchener Road, City Square Mall, <br />
+                                #09-01/05 Singapore 208539 <br />
+                                Email: software.sales@newstead.com.sg <br />
+                                Phone: +65 6634 6033
+                            </div>
+                        </div>
+                        @*<div class="clsApp clsApplg">
+                            <div class="appIOS">
+                                <img src="@Url.Content("~/Images/iconIOS.png")" style="float:left;margin-top:35px;margin-left:10px;" />
+                                <p class="apptagDownload" style="text-align:left;margin-left:5px;font-size:11px">DOWNLOAD ON THE</p>
+                                <p class="apptagStore" style="text-align:left;margin-left:40px;font-size:16px;font-family:Roboto-Medium">App Store</p>
+                            </div>
+                            <div class="appAndroid">
+                                <img src="@Url.Content("~/Images/Google Play Icon.png")" style="float:left;margin-top:35px;margin-left:10px;width:20px" />
+                                <p class="apptagDownload" style="text-align:left;margin-left:40px;font-size:11px;">GET IT ON</p>
+                                <p class="apptagStore" style="text-align:left;margin-left:40px;font-size:16px;font-family:Roboto-Medium">Google play</p>
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>*@
+                    </li>
+
+                </ul>
+            </div>
+            <div style="border-bottom: 1px dashed #808080 !important;margin-top:-30px"></div>
+            <div style="clear:both"></div>
+        </footer>
+        <a href="#0" class="cd-top">Top</a>
+    </div>
+
+    <!--Bootstrap-->
+    <script src="@Url.Content("~/Libaries/bootstrap/dist/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Libaries/jquery.bxslider/jquery.bxslider.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/main.js")"></script>
+    @RenderSection("Scripts", false)
+
+</body>
+</html>
+<script type="text/javascript">
+    @{
+        string controller = this.ViewContext.RouteData.Values["controller"].ToString();
+        <text>
+            $('.site-menu .menu li a').removeClass('active');
+            $('.@controller').addClass('active');
+        </text>
+
+        if(controller != "Home")
+        {
+            <text>
+            //$('.mem-header').css({ "background-color": "#FFF" });
+            $('.navbar-inverse').css({ "background-color": "#FFF" });
+            $('.site-menu .menu li a').css({ "color": "#58627c" })
+            </text>
+        }
+        else
+        {
+           <text>
+            $('.navbar-inverse').css({ "background-image": 'url("../Images/111.jpg")' });
+            //$('.mem-header').css({ "background-image": 'url("../Images/POinS_web_Ngan.jpg")' });
+            $('.site-menu .menu li a').css({ "color": "#FFF" })
+            $('.clsBorder').css({ "border-bottom": "1px dashed #808080", "margin-top":"10px","margin-bottom":"10px"})
+            </text>
+        }
+
+    }
+</script>

@@ -1,0 +1,38 @@
+﻿/**
+ * http://applemusic.tumblr.com/
+ */
+
+/** Ultra Light */
+@font-face {
+    font-family: "Apple Chancery";
+    font-weight: 100;
+    src: url("../fonts/Apple Chancery.woff");
+}
+
+/** Thin */
+@font-face {
+    font-family: "Apple Chancery";
+    font-weight: 200;
+    src: url("../fonts/Apple Chancery.woff");
+}
+
+/** Medium */
+@font-face {
+    font-family: "Apple Chancery";
+    font-weight: normal;
+    src: url("../fonts/Apple Chancery.woff");
+}
+
+/** Semi Bold */
+@font-face {
+    font-family: "Apple Chancery";
+    font-weight: 500;
+    src: url("../fonts/Apple Chancery.woff");
+}
+
+/** Bold */
+@font-face {
+    font-family: "Apple Chancery";
+    font-weight: bold;
+    src: url("../fonts/Apple Chancery.woff");
+}

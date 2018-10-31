@@ -1,0 +1,497 @@
+﻿
+@media screen and (min-width: 320px)and (max-width: 359px) {
+    .row_slide {
+        margin-top: 100px;
+        margin-bottom: -190px;
+    }
+    .slideimage{
+        margin-left:15px;
+        width:95%;
+    }
+}
+@media screen and (min-width: 360px)and (max-width: 374px) {
+    .row_slide {
+        margin-top: 100px;
+        margin-bottom: -190px;
+    }
+    .slideimage {
+        margin-left: 15px;
+        width: 95%;
+    }
+}
+@media screen and (min-width: 375px)and (max-width: 400px) {
+    .row_slide {
+        margin-top: 100px;
+        margin-bottom: -160px;
+    }
+    .slideimage {
+        margin-left: 15px;
+        width: 95%;
+    }
+}
+@media screen and (min-width: 412px)and (max-width: 544px) {
+    .row_slide {
+        margin-top: 100px;
+        margin-bottom: -150px;
+    }
+    .slideimage {
+        margin-left: 20px;
+        width: 95%;
+    }
+}
+@media screen and (max-width: 544px) {
+    .row_contact_lg_1 .form-group .txt_submits > p {
+        font-size: 15px !important;
+    }
+
+    .bx-next {
+        display: none !important;
+    }
+
+    .bx-prev {
+        display: none !important;
+    }
+
+    .bxslider_lg {
+        display: none;
+    }
+
+    .bxslider_sm {
+        margin-top: -40px;
+        display: block;
+    }
+
+        .bxslider_sm .form-group label {
+            font-weight: bold;
+        }
+
+    .bx-pager-link {
+        display: none !important;
+    }
+
+    .row_contact_lg_1s {
+        display: none;
+    }
+
+    .row_contact_lg_1 {
+        background-color: white !important;
+    }
+
+    #slides_md {
+        display: none;
+    }
+
+    #slides_lg {
+        display: none;
+    }
+
+    #slides_sm {
+        display: block;
+    }
+
+    #slides_lg_big {
+        display: none;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    text-center {
+        font-size: 15px;
+    }
+
+    .textcontact {
+        /*margin-top: 50px;*/
+        margin-bottom: 50px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .row_text {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+        .row_text p {
+            font-size: 16px;
+        }
+
+    /*.row_slide {
+        margin-top: 100px;
+        margin-bottom: -150px;
+    }*/
+
+    .row-header {
+        margin-bottom: -70px;
+        margin-top: 80px;
+    }
+
+    .row_contact_lg .row_contact_lg_1 .form-group p {
+        font-size: 12px
+    }
+
+    .row_contact_lg .row_contact_lg_1 .form-group a {
+        font-size: 12px;
+        text-decoration: underline
+    }
+
+    .row_contact_xs_pro {
+        display: none;
+    }
+
+    .row_contact_lg {
+        display: block;
+    }
+
+    .form-group > button {
+        margin-right: 15px;
+    }
+
+    .row_contact_lg #contactinfo .row_contact_lg_2 .form-horizontal .form-group {
+        margin-bottom: 0px !important;
+    }
+
+    .bx-default-pager {
+        display: none;
+    }
+}
+
+@media (min-width: 544px) and (max-width: 768px) {
+    .row_contact_lg_1 .form-group .txt_submits > p {
+        font-size: 15px !important;
+    }
+
+    .bxslider_sm {
+        display: none;
+    }
+
+    #slides_lg {
+        display: none;
+    }
+
+    #slides_sm {
+        display: none;
+    }
+
+    #slides_md {
+        display: block;
+    }
+
+    #slides_lg_big {
+        display: none;
+    }
+
+    .row_text {
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+
+        .row_text p {
+            font-size: 20px;
+        }
+
+
+    .row_slide {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .row-header {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .row_contact_lg .row_contact_lg_1 .form-group p {
+        font-size: 12px
+    }
+
+    .row_contact_lg .row_contact_lg_1 .form-group a {
+        font-size: 12px;
+        text-decoration: underline
+    }
+
+    .row_contact_xs_pro {
+        display: none;
+    }
+
+    .row_contact_lg {
+        display: block;
+    }
+
+        .row_contact_lg #contactinfo .row_contact_lg_2 .form-horizontal .form-group {
+            margin-bottom: 0px !important;
+        }
+
+    .bx-default-pager {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .row_contact_lg_1 .form-group .txt_submits > p {
+        font-size: 25px;
+    }
+
+    .bxslider_sm {
+        display: none;
+    }
+
+    #slides_lg {
+        display: none;
+    }
+
+    #slides_sm {
+        display: none;
+    }
+
+    #slides_md {
+        display: block;
+    }
+
+    #slides_lg_big {
+        display: none;
+    }
+
+    .row_text {
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+
+        .row_text p {
+            font-size: 20px;
+        }
+
+    .row_slide {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .row-header {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .bx-default-pager {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .row_contact_lg_1 .form-group .txt_submits > p {
+        font-size: 25px;
+    }
+
+    .bxslider_sm {
+        display: none;
+    }
+
+    #slides_sm {
+        display: none;
+    }
+
+    #slides_md {
+        display: none;
+    }
+
+    #slides_lg {
+        display: block;
+    }
+
+    #slides_lg_big {
+        display: none;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .row-header {
+        margin: 100px;
+    }
+
+    .row_text p {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .textcontact {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .row_text {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .bx-default-pager {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .row_contact_lg_1 .form-group .txt_submits > p {
+        font-size: 25px;
+    }
+
+    .bxslider_sm {
+        display: none;
+    }
+
+    .row_contact_xs_pro {
+        display: block;
+    }
+
+    .row_contact_lg {
+        display: none;
+    }
+
+    .row_contact_xs_pro .div_contact_xs_pro1 {
+        height: 510px;
+    }
+
+    .row_contact_xs_pro .div_contact_xs_pro2 {
+        height: 510px;
+    }
+
+    .contact_formsm {
+        margin-top: 80px;
+    }
+
+    .row_contact_xs_pro .div_contact_xs_pro1 .form-group p {
+        font-size: 15px
+    }
+
+    .row_contact_xs_pro .div_contact_xs_pro1 .form-group a {
+        font-size: 15px;
+        text-decoration: underline
+    }
+
+    .bx-default-pager {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .row_contact_lg_1 .form-group .txt_submits > p {
+        font-size: 25px !important;
+    }
+
+    .bxslider_sm {
+        display: none;
+    }
+
+    .row_contact_xs_pro {
+        display: block;
+    }
+
+    .row_contact_lg {
+        display: none;
+    }
+
+    .row_contact_xs_pro .div_contact_xs_pro1 {
+        height: 510px;
+    }
+
+    .row_contact_xs_pro .div_contact_xs_pro2 {
+        height: 510px;
+    }
+
+    .row_contact_xs_pro .div_contact_xs_pro1 .form-group p {
+        font-size: 15px
+    }
+
+    .row_contact_xs_pro .div_contact_xs_pro1 .form-group a {
+        font-size: 15px;
+        text-decoration: underline
+    }
+
+    .form-group {
+        margin-bottom: 15px !important;
+    }
+
+    .contact_formsm {
+        margin-top: 80px;
+    }
+
+    .bx-default-pager {
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    .row_contact_lg_1 .form-group .txt_submits > p {
+        font-size: 25px !important;
+    }
+
+    .bxslider_sm {
+        display: none;
+    }
+
+    .row_contact_xs_pro {
+        display: none;
+    }
+
+    .row_contact_lg {
+        display: block;
+    }
+
+        .row_contact_lg .row_contact_lg_1 {
+            height: 520px;
+        }
+
+        .row_contact_lg .row_contact_lg_2 {
+            height: 520px;
+        }
+
+        .row_contact_lg .row_contact_lg_1 .form-group p {
+            font-size: 15px
+        }
+
+        .row_contact_lg .row_contact_lg_1 .form-group a {
+            font-size: 15px;
+            text-decoration: underline
+        }
+
+    #slides_lg_big {
+        display: block;
+    }
+
+    #slides_sm {
+        display: none;
+    }
+
+    #slides_md {
+        display: none;
+    }
+
+    #slides_lg {
+        display: none;
+    }
+
+    .row_contact_lg #contactinfo .row_contact_lg_2 .form-horizontal .form-group {
+        margin-bottom: 0px !important;
+    }
+
+    .contact_form {
+        margin-top: 65px;
+    }
+
+    .bx-default-pager {
+        display: none;
+    }
+}

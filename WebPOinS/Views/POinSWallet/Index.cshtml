@@ -1,0 +1,324 @@
+﻿@{ 
+    ViewBag.Title = "Products";
+}
+
+<style type="text/css">
+    .tm_pb_gutters3{
+        margin-top:75px;
+    }
+    .clsImage {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .clsProdut-1-Title h3 {
+        font-size: 55px;
+        color: #58627c;
+        font-family: Roboto-Medium !important;
+        font-weight:unset !important;
+    }
+
+    .clsProduct-1-content p {
+        color: #58627c;
+        font-size: 16px;
+    }
+
+    .product-1-center {
+        min-height: 800px;
+        background-color: #f6f6f6;
+    }
+
+    .clsImage-product-center img{
+        margin-top:75px;
+       margin-left:-30px;
+    }
+
+    .cls-product-1-center-main{
+      margin-top:200px;
+    }
+
+    .clsProdut-1-Center-Title h3 {
+        color: #fbbc3e;
+        font-size: 55px;
+        font-family: Roboto-Medium !important;
+        font-weight: unset !important;
+        margin-top:10px;
+    }
+
+    .clsProduct-1-Center-content p {
+        color: #58627c;
+        font-size:16px;
+    }
+
+    /*.product-1-bottom{
+        min-height:800px;
+    }*/
+
+    .product-1-bottom {
+        margin-top: 100px;
+    }
+    .product-1-bottom-title {
+        padding-top: 1%;
+        margin-bottom: -4%;
+    }
+    .product-1-bottom-title h3 {
+        color: #58627c;
+        font-size: 16px;
+        text-align: center;
+        font-family: Roboto-Light !important;
+    }
+    .product-1-bottom-content {
+        position: relative;
+        margin-top: 15%;
+    }
+        .product-1-bottom-content .Product-slider {
+            /*margin-top: 130px;*/
+            height: 530px;
+
+        }
+
+    .product-1-bottom-sigle-image {
+        position: absolute;
+        top: -68px;
+        height: 716px;
+        z-index: 9999;
+        left: 40%;
+    }
+
+    .product-1-bottom-sigle-image img{
+        height:100%;
+    }
+
+    .imgproduct2{
+        background-color: #ffffff;
+        height: 918px;
+        margin-top: 100px;
+    }
+    .leftProduct2{
+        text-align: center;
+        padding-top: 150px;
+        margin: auto;
+        width: 1170px;
+    }
+    .leftProduct2-img1{
+        width: 114px;
+        text-align: left;
+    }
+    .leftProduct2-2 img{
+        width: 340px;
+    }
+    .leftProduct2-2 span{
+        color: #fff;
+        font-size: 110px;
+        vertical-align: -webkit-baseline-middle;
+    }
+    .leftProduct2-3{
+        width: 600px;
+        color: #E59F1A;
+        font-size: 95px;
+        padding-bottom: 20px;
+    }
+    .leftProduct2-4{
+        color: #fff;
+        font-size: 16px;
+        text-align: left;
+    }
+    .rightProduct2 h3 img{
+        width: 750px;
+    }
+    .product2-row2{
+        text-align: center;
+        padding: 50px 50px;
+        font-size: 22px;
+    }
+    .product2-row2 p{
+        color: #494949;
+    }
+    .product2-row2-img{
+        height: 390px;
+        width: 585px;
+    }
+    .product2-row2-content{
+        text-align: center;
+        height: 390px;
+        background-color: #E59F1A;
+        color: #fff; font-size: 16px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .product2-row3{
+        margin-top: -35px;
+    }
+    .product2-row3-1{
+        text-align: center;
+        height: 390px;
+        margin: auto;
+        background-color: #0C77B6;
+        color: #fff;
+        font-size: 20px;
+        display: table-cell;
+        vertical-align: middle;
+        border-collapse: unset
+    }
+    .product2-row5-2{
+        position: absolute;
+        z-index: 1;
+        margin-left: 180px;
+        margin-top: 70px;
+    }
+    .product2-row3-2 img{
+        height: 390px; width: 585px; margin-left: -0.1px;
+    }
+    .rowcontent{
+        margin-top: 80px;
+    }
+    .product2-row4{
+        margin-top: -297px;
+    }
+    .product2-row5{
+        margin-top: -100px;
+    }
+    .product2-row5-1{
+        height: 700px;
+        vertical-align: middle;
+        text-align: center;
+        padding-left: 200px;
+        padding-top: 260px;
+    }
+    .product2-row5-2{
+        font-size: 28px;
+    }
+    .product2-row5-3{
+        font-size: 62px;
+    }
+    .main-product-1 {
+        margin-bottom: 5%;
+        font-family: Roboto-Light !important;
+    }
+
+</style>
+<link href="~/Content/home.css" rel="stylesheet" />
+<div class="tm_builder_inner_content tm_pb_gutters3">
+    <div class="main-product-1">
+        <div class="produc-1-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                        <div class="form-group">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="clsImage">
+                                    <img src="@Url.Content("~/Images/LOGO-POinS-03.jpg")" width="115px"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="clsProdut-1-Title" style="font-family:Roboto-Regular">
+                                    <h3>Your Consumer<br />
+                                    Marketing App</h3>
+                                </div>
+                                <div class="clsProduct-1-content" style="margin-top:30px; font-family:Roboto-Regular">
+                                    <p>Instead of using multiple apps to connect with their favorite merchants,
+                                    consumers can now access their e-membership cards,
+                                    loyalty points and much more, all from a single app.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="clsImageRight">
+                            <img src="@Url.Content("~/Images/Mockup.png")" style="margin-left: -8%;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-1-center">
+            <div class="container" style="margin-top:50px">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 desktop">
+                        <div class="clsImage-product-center">
+                            <img src="@Url.Content("~/Images/1anarebe_iPhone7PlusPSD.png")" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 cls-product-1-center-main">
+                        <div class="form-group">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="cls-Product-1-center-image-content">
+                                    <img src="@Url.Content("~/Images/LOGO POinS.png")" />
+                                </div>
+                                <div class="clsProdut-1-Center-Title">
+                                    <h3>Consumer App</h3>
+                                </div>
+                                <div class="clsProduct-1-Center-content" style="margin-top:30px; font-family:Roboto-Regular">
+                                    <p>POinS Wallet is a digital wallet for everyone to download.
+                                    It is not a store directory nor a loyalty platform.
+                                    It’s a single app for the consumers to interact
+                                    directly with their favorite merchant.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 mobile" style="margin-bottom:30px">
+                        <div class="clsImage-product-center">
+                            <img src="@Url.Content("~/Images/1anarebe_iPhone7PlusPSD.png")" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-1-bottom">
+            <div class="product-1-bottom-title">
+                <h3>POinS Wallet is a smart phone application available for Android and iOS that everyone can download</h3>
+            </div>
+            <div class="product-1-bottom-content">
+                <div class="Product-slider">
+                    <div class="silder" style="height:100%">
+                        <img src="@Url.Content("~/Images/slide wallet/6.png")" style="height:100% !important;width:100% !important" class="desktop" />
+                        <img src="@Url.Content("~/Images/slide wallet/4.png")" style="height:100% !important;width:100% !important" class="mobile"/>
+                    </div>
+                    <div class="silder" style="height:100%">
+                        <img src="@Url.Content("~/Images/slide wallet/2.jpg")" style="height:100% !important;width:100% !important" class="desktop"/>
+                        <img src="@Url.Content("~/Images/slide wallet/1.png")" style="height:100% !important;width:100% !important" class="mobile"/>
+                    </div>
+                    <div class="silder" style="height:100%">
+                        <img src="@Url.Content("~/Images/slide wallet/3.jpg")" style="height:100% !important; width:100% !important" class="desktop" />
+                        <img src="@Url.Content("~/Images/slide wallet/2.png")" style="height:100% !important; width:100% !important" class="mobile"/>
+                    </div>
+                    <div class="silder" style="height:100%">
+                        <img src="@Url.Content("~/Images/slide wallet/4.jpg")" style="height:100% !important;width:100% !important" class="desktop"/>
+                        <img src="@Url.Content("~/Images/slide wallet/3.png")" style="height:100% !important;width:100% !important" class="mobile"/>
+                    </div>
+                    <div class="silder" style="height:100%">
+                        <img src="@Url.Content("~/Images/slide wallet/5.0.jpg")" style="height:100% !important; width: 100% !important" class="desktop"/>
+                        <img src="@Url.Content("~/Images/slide wallet/5.1.jpg")" style="height:100% !important;width:100% !important" class="mobile"/>
+                    </div>
+                </div>
+                <div class="product-1-bottom-sigle-image">
+                    <img src="@Url.Content("~/Images/phone_frame.png")" class="desktop2" />
+                    <img src="@Url.Content("~/Images/phone_frame2.png")" class="mobile2" />
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        @*Phần của anh nha*@
+    </div>    
+    <div style="clear:both"></div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.Product-slider').bxSlider({
+            //slideWidth: 370,
+            maxSlides: 1,
+            //slideMargin:10,
+            auto: true,
+            touchEnabled: false,
+            pager: false,
+            useCSS: true,
+        });
+    })
+</script>

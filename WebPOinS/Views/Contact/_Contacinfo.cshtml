@@ -1,0 +1,194 @@
+﻿@model WebPOinS.Shared.EmailFormModel
+<div class="se-pre-con"></div>
+<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 row_contact_lg_1" style="background-color:#333333;box-shadow: 0px 2px 4px #888888;">
+    <div class="form-horizontal row_contact_lg_1s">
+        <div class="form-group"></div>
+        <div class="form-group" style="color:white;margin-top:100px">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-1 col-sm-1 col-xs-12"></div>
+                <div class="col-md-10 col-sm-10 col-xs-12">
+                    <div class="form-group">
+                        <img src="~/Images/Newsteads-01.png" style="height:auto; width:60%" />
+                    </div>
+                    <div class="form-group"></div>
+                    <div class="form-group"></div>
+                    <div class="form-group" style="font-family: Roboto-Light;">
+                        <p>
+                            80 Kitchener Road, City Square Mall,
+                        </p>
+                        <p>#09-01/05 Singapore 208539
+                        </p>
+                    </div>
+                    <div class="form-group" style="font-family: Roboto-Light;">
+                        <p>(65) 6634 6033</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-1 col-sm-1 col-xs-12"></div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="form-group" style="font-family: Roboto-Light;">
+                        <a href="#" style="color:#cc8800;">software.sale@newstead.com.sg</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 row_contact_lg_2" style="background-color:white;border:none;box-shadow: 0px 2px 4px #888888;">
+    @using (Html.BeginForm("Index", "Contact", null, FormMethod.Post, new { @class = "form-horizontal contact_form", enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="col-md-1 col-xs-1"></div>
+        <form class="form-horizontal">            
+            <div class="form-group">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:20px">
+                    <div class="col-md-1 col-sm-0 col-xs-0 col-lg-1"></div>
+                    <div class="col-md-2 col-sm-3 col-xs-3 col-lg-2">
+                        <button id="focus_lg" disabled style="border-radius:100%;background-color: #e6e6e6; border: none;color: white;padding: 5px;text-align: center;text-decoration: none;font-size: 20px;margin-right:5px;width:35px;height:35px;"><i class="fa fa-user"></i></button>
+                    </div>
+                    <div class="col-md-9 col-sm-8 col-xs-9 col-lg-8">
+                        @Html.TextBoxFor(model => model.FromName, new { @class = "form-control", @required = true, @id = "FromNameid", @placeholder = "Dieter Rams", @name = "name", @style = "background-color:#e6e6e6;border:none;padding:6px 12px;font-family: Roboto-Light; ", onblur = "fblurs(this)" })
+                    </div>
+                    <div class="col-md-1 col-sm-1 col-xs-0"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:20px">
+                    <div class="col-md-1 col-sm-0 col-xs-0 col-lg-1"></div>
+                    <div class="col-md-2 col-sm-3 col-xs-3 col-lg-2">
+                        <button id="focus1_lg" disabled style="border-radius:100%;background-color: #e6e6e6; border: none;color: white;padding: 5px;text-align: center;text-decoration: none;font-size: 20px;margin-right:5px;width:35px;height:35px;"><i class="fa fa-envelope-o"></i></button>
+                    </div>
+                    <div class="col-md-9 col-sm-8 col-xs-9 col-lg-8">
+                        @Html.TextBoxFor(model => model.FromEmail, new { @class = "form-control", @required = true, @id = "email_lg", @placeholder = "Please enter your email", @type = "email", @name = "email", @style = "background-color:#e6e6e6;border:none;padding:6px 12px;font-family: Roboto-Light;", onblur = "fblurs(this)" })
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-0"></div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:20px">
+                    <div class="col-md-1 col-sm-0 col-xs-0 col-lg-1"></div>
+                    <div class="col-md-2 col-sm-3 col-xs-3 col-lg-2">
+                        <button id="focus2_lg" disabled style="border-radius:100%;background-color: #e6e6e6; border: none;color: white;padding: 5px;text-align: center;text-decoration: none;font-size: 20px;margin-right:5px;width:35px;height:35px;"><i class="fa-mail-reply-all"></i></button>
+                    </div>
+                    <div class="col-md-9 col-sm-8 col-xs-9 col-lg-8">
+                        @Html.TextBoxFor(model => model.FromSubject, new { @class = "form-control", @required = true, @id = "subject_lg", @placeholder = "Please enter a subject line", @name = "subject", @style = "background-color:#e6e6e6;border:none;padding:6px 12px;font-family: Roboto-Light;", onblur = "fblurs(this)" })
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-0"></div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:20px">
+                    <div class="col-md-1 col-sm-0 col-xs-0 col-lg-1"></div>
+                    <div class="col-md-2 col-sm-3 col-xs-3 col-lg-2">
+                        <button id="focus3_lg" disabled style="border-radius:100%;background-color:#e6e6e6; border: none;color: white;padding: 5px;text-align: center;text-decoration: none;font-size: 20px;margin-right:5px;width:35px;height:35px;"><i class="fa fa-pencil"></i></button>
+                    </div>
+                    <div class="col-md-9 col-sm-8 col-xs-9 col-lg-8">
+                        @Html.TextAreaFor(model => model.FromMessage, new { @class = "form-control", @required = true, @rows = "5", @id = "comment_lg", @style = "resize: none;border:none;background-color:#e6e6e6;font-family: Roboto-Light;", @placeholder = "Tell us a little more about your enquiry....", onblur = "fblurs(this)" })
+                    </div>
+                    <div class="col-md-1 col-sm-1 col-xs-0"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-12 col-sm-12 col-xs-12 text-right" style="margin-top:20px">
+                    <div class="col-md-1 col-sm-0 col-xs-0 col-lg-1"></div>
+                    <label class="col-md-2 col-sm-4 col-xs-3 col-lg-2"></label>
+                    <div class="col-md-3 col-sm-7 col-xs-9 col-lg-3">
+                        <button type="submit" class="btn btn-warning" style="background-color:#cc8800;font-family: Roboto-Light;">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10 text-success" style="font-size:15px;margin-top:20px">
+                    @ViewBag.Status
+                </div>
+            </div>
+        </form>
+        <div class="col-md-1 col-xs-1"></div>
+    }
+</div>
+
+<script type="text/javascript">
+
+    $(".contact_form").submit(function (e) {
+        $.ajax({
+            url: $(this).attr('action'),
+            type: "post",
+            data: new FormData(this),
+            processData: false,
+            contentType: false,
+            beforeSend: function () {
+                $(".se-pre-con").show();
+            },
+            success: function (data) {
+                $(".se-pre-con").hide();
+                $("#contactinfo").css("display", "none");
+                $("#status").css("display", "block");
+                $("#status").html(data);
+
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                $('.se-pre-con').hide();
+                $(".text-success").html(jqXHR.responseText);
+            }
+        });
+        e.preventDefault();
+    });
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#comment_lg").css('background-color', '#e6e6e6');
+    });
+    $("#FromNameid").focus(function () {
+        $("#focus_lg").css('background-color', '#cc8800');
+        $(this).css('background-color', '#cccccc');
+    });
+    $("#email_lg").focus(function () {
+        $("#focus1_lg").css('background-color', '#cc8800');
+        $(this).css('background-color', '#cccccc');
+    });
+    $("#subject_lg").focus(function () {
+        $("#focus2_lg").css('background-color', '#cc8800');
+        $(this).css('background-color', '#cccccc');
+    });
+    $("#comment_lg").focus(function () {
+        $("#focus3_lg").css('background-color', '#cc8800');
+        $(this).css('background-color', '#cccccc');
+    });
+
+    function fblurs(object) {
+        if ($(object).val() != "") {
+            $(object).css('background-color', '#cccccc');
+            if ($('#FromNameid').val() != "")
+            { $("#focus_lg").css('background-color', '#cc8800'); }
+            else { $("#focus_lg").css('background-color', '#e6e6e6'); }
+            if ($('#email_lg').val() != "")
+            { $("#focus1_lg").css('background-color', '#cc8800'); }
+            else { $("#focus1_lg").css('background-color', '#e6e6e6'); }
+            if ($('#subject_lg').val() != "")
+            { $("#focus2_lg").css('background-color', '#cc8800'); }
+            else { $("#focus2_lg").css('background-color', '#e6e6e6'); }
+            if ($('#comment_lg').val() != "")
+            { $("#focus3_lg").css('background-color', '#cc8800'); }
+            else { $("#focus3_lg").css('background-color', '#e6e6e6');}
+        }
+        else {           
+            $(object).css('background-color', '#e6e6e6'); 
+            if ($('#FromNameid').val() != "")
+            { $("#focus_lg").css('background-color', '#cc8800'); }
+            else { $("#focus_lg").css('background-color', '#e6e6e6'); }
+            if ($('#email_lg').val() != "")
+            { $("#focus1_lg").css('background-color', '#cc8800'); }
+            else { $("#focus1_lg").css('background-color', '#e6e6e6'); }
+            if ($('#subject_lg').val() != "")
+            { $("#focus2_lg").css('background-color', '#cc8800'); }
+            else { $("#focus2_lg").css('background-color', '#e6e6e6'); }
+            if ($('#comment_lg').val() != "")
+            { $("#focus3_lg").css('background-color', '#cc8800'); }
+            else { $("#focus3_lg").css('background-color', '#e6e6e6'); }
+        }
+    }
+</script>

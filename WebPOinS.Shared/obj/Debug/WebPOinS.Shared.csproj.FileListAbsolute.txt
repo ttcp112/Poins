@@ -1,0 +1,12 @@
+D:\Poins page\WebPOinS.Shared\bin\Debug\WebPOinS.Shared.dll
+D:\Poins page\WebPOinS.Shared\bin\Debug\WebPOinS.Shared.pdb
+D:\Poins page\WebPOinS.Shared\obj\Debug\WebPOinS.Shared.csprojResolveAssemblyReference.cache
+D:\Poins page\WebPOinS.Shared\obj\Debug\WebPOinS.Shared.csproj.CoreCompileInputs.cache
+D:\Poins page\WebPOinS.Shared\obj\Debug\WebPOinS.Shared.dll
+D:\Poins page\WebPOinS.Shared\obj\Debug\WebPOinS.Shared.pdb
+D:\NuWeb.Poins_page\WebPOinS.Shared\bin\Debug\WebPOinS.Shared.dll
+D:\NuWeb.Poins_page\WebPOinS.Shared\bin\Debug\WebPOinS.Shared.pdb
+D:\NuWeb.Poins_page\WebPOinS.Shared\obj\Debug\WebPOinS.Shared.csprojResolveAssemblyReference.cache
+D:\NuWeb.Poins_page\WebPOinS.Shared\obj\Debug\WebPOinS.Shared.csproj.CoreCompileInputs.cache
+D:\NuWeb.Poins_page\WebPOinS.Shared\obj\Debug\WebPOinS.Shared.dll
+D:\NuWeb.Poins_page\WebPOinS.Shared\obj\Debug\WebPOinS.Shared.pdb

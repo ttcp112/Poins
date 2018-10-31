@@ -1,0 +1,53 @@
+﻿/**
+ * http://applemusic.tumblr.com/
+ */
+
+/** Ultra Light */
+@font-face {
+    font-family: "Helvatica";
+    font-weight: 100;
+    src: url("../fonts/helvetica-neue-webfont.woff");
+    src:url("../fonts/helvetica-neue-webfont.eot"),
+        url("../fonts/helvetica-neue-webfont.svg"),
+        url("../fonts/helvetica-neue-webfont.ttf")
+}
+
+/** Thin */
+@font-face {
+    font-family: "Helvatica";
+    font-weight: 200;
+    src: url("../fonts/helvetica-neue-webfont.woff");
+    src: url("../fonts/helvetica-neue-webfont.eot"),
+        url("../fonts/helvetica-neue-webfont.svg"), 
+        url("../fonts/helvetica-neue-webfont.ttf")
+}
+
+/** Medium */
+@font-face {
+    font-family: "Helvatica";
+    font-weight: normal;
+    src: url("../fonts/helvetica-neue-webfont.woff");
+    src: url("../fonts/helvetica-neue-webfont.eot"), 
+        url("../fonts/helvetica-neue-webfont.svg"),
+        url("../fonts/helvetica-neue-webfont.ttf")
+}
+
+/** Semi Bold */
+@font-face {
+    font-family: "Helvatica";
+    font-weight: 500;
+    src: url("../fonts/helvetica-neue-webfont.woff");
+    src: url("../fonts/helvetica-neue-webfont.eot"), 
+        url("../fonts/helvetica-neue-webfont.svg"), 
+        url("../fonts/helvetica-neue-webfont.ttf")
+}
+
+/** Bold */
+@font-face {
+    font-family: "Helvatica";
+    font-weight: bold;
+    src: url("../fonts/helvetica-neue-webfont.woff");
+    src: url("../fonts/helvetica-neue-webfont.eot"), 
+        url("../fonts/helvetica-neue-webfont.svg"), 
+        url("../fonts/helvetica-neue-webfont.ttf")
+}

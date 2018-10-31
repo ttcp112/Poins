@@ -1,0 +1,449 @@
+﻿@{ 
+    ViewBag.Title = "Products";
+}
+
+<style type="text/css">
+    .tm_pb_gutters3{
+        margin-top:20px !important;
+    }
+    .clsImage {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .clsProdut-1-Title h3 {
+        font-size: 55px;
+        color: #58627c;
+    }
+
+    .clsProduct-1-content p {
+        color: #58627c;
+        font-size: 16px;
+    }
+
+    .product-1-center {
+        min-height: 700px;
+        background-color: #f6f6f6;
+    }
+
+    .clsImage-product-center img{
+        margin-top:75px;
+       margin-left:-30px;
+    }
+
+    .cls-product-1-center-main{
+      margin-top:200px;
+    }
+
+    .clsProdut-1-Center-Title h3 {
+        color: #fbbc3e;
+        font-size:55px;
+    }
+
+    .clsProduct-1-Center-content p {
+        color: #58627c;
+        font-size:16px;
+    }
+
+    /*.product-1-bottom{
+        min-height:800px;
+    }*/
+
+    .product-1-bottom {
+        margin-top: 100px;
+    }
+        .product-1-bottom-title h3 {
+            color: #58627c;
+            font-size: 16px;
+            text-align: center;
+        }
+    .product-1-bottom-content {
+        position: relative;
+        margin-top: 15%;
+    }
+        .product-1-bottom-content .Product-slider {
+            /*margin-top: 130px;*/
+            height: 530px;
+
+        }
+
+    .product-1-bottom-sigle-image {
+        position: absolute;
+        top: -68px;
+        height: 716px;
+        z-index: 9999;
+        left: 40%;
+    }
+
+    .product-1-bottom-sigle-image img{
+        height:100%;
+    }
+
+    .imgproduct2{
+        background-color: #ffffff;
+        height: 918px; 
+        margin-top: 10px; 
+    }
+    .leftProduct2 {
+        text-align: center;
+        padding-top: 9%;
+        margin: auto;
+        width: 1170px;
+    }
+    .leftProduct2-img1 {
+        width: 114px;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+    .leftProduct2-2 img{
+        width: 340px; 
+    }
+    .leftProduct2-2 span{
+        color: #fff; 
+        font-size: 110px; 
+        vertical-align: -webkit-baseline-middle;
+    }
+    .leftProduct2-4{
+        color: #fff; 
+        font-size: 16px; 
+        text-align: left; 
+    }
+    .rightProduct2 h3 img{
+        width: 750px;
+    }
+    .product2-row2{
+        text-align: center; 
+        padding: 50px 50px; 
+        font-size: 16px;
+        color:#58627c;
+    }
+
+    .product2-row2-img{
+        height: 390px; 
+        width: 585px; 
+    }
+    .product2-row2-content {
+        text-align: center;
+        height: 390px;
+        background-color: #E59F1A;
+        color: #fff;
+        font-size: 16px;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 10%;
+        font-family: Roboto-Regular;
+    }
+    .product2-row3{
+        margin-top: -35px; 
+    }
+    .product2-row3-1 {
+        text-align: center;
+        height: 390px;
+        margin: auto;
+        background-color: #0C77B6;
+        color: #fff;
+        font-size: 16px;
+        display: table-cell;
+        vertical-align: middle;
+        border-collapse: unset;
+        padding: 0 10%;
+        font-family:Roboto-Regular;
+    }
+    .product2-row5-2 {
+        position: absolute;
+        z-index: 1;
+        margin-left: 7%;
+        margin-top: 3%;
+        font-size: 16px;
+    }
+    .product2-row3-2 img{
+        height: 390px; width: 585px; margin-left: -0.1px; 
+    }
+    .divslide{
+        margin-top: 80px;
+    }
+    .product2-row4{
+        margin-top: -25%; 
+    }
+    .product2-row5{
+        margin-top: -100px; 
+    }
+    .product2-row5-1 {
+        color: #58627c;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 40px;
+        font-family: Roboto-Regular;
+        margin-top:18%;
+    }
+    .slide-img {
+        width: 50%;
+        float: right;
+    }
+    .slie-conten {
+        width: 50%;
+        float: left;
+    }
+    .silder {
+        width: 100%;
+        background: #f6f6f6;
+    }
+
+    .tm_section_transparent {
+        font-family: Roboto-Light !important;
+    }
+</style>
+<link href="~/Content/home.css" rel="stylesheet" />
+    <div class="tm_pb_section  tm_pb_section_0 tm_section_regular tm_section_transparent">
+        <div class="row tm_pb_row tm_pb_row_0 tm_pb_row_fullwidth tm_pb_col_padding_reset">
+            <div class="tm_pb_column tm_pb_column_4_4  tm_pb_column_0 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="tm_pb_slider tm_pb_slider_0 tm_pb_slider_fullwidth_off tm_pb_slider_no_arrows  tm_pb_module">
+                    <div class="tm_pb_slides">
+                        <div class="tm_pb_slide tm_pb_bg_layout_light tm_pb_media_alignment_center tm_pb_slide_0 tm-pb-active-slide imgproduct2"
+                             style='background-image: url(/Images/6.jpg)'>
+                            <div class="tm_pb_container clearfix">
+                                <div class="tm_pb_slide_description">
+                                    <div class="tm_pb_slide_content">
+                                        <div class="row leftProduct2">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 title-product___2" style="text-align: left; ">
+                                                <div>
+                                                    <img class="leftProduct2-img1" src="~/Images/LOGOPOinSLink.png" />
+                                                </div>
+                                                <div class="leftProduct2-2"><img src="/Images/LOGO POinS-Huong(1)-06.png" /><span>Link</span></div>
+                                                <div class="leftProduct2-3" style="font-family:Roboto-Regular">Merchant App</div>
+                                                <div class="leftProduct2-4" style="font-family:Roboto-Medium">
+                                                    POinS Link is a CRM platform for merchants to better manage
+                                                    their Customer Relationship. POinS Link puts the power of ERP
+                                                    grade CRM and Marketing tools into a simple App for all
+                                                    merchants.
+                                                </div>
+                                                @*<div class="dborder"></div>*@
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 rightProduct2">
+                                                <h3>
+                                                    <img src="~/Images/002-iPad-Landscape.png"/>
+                                                </h3>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 title-product___2" style="text-align: left; ">
+                                                <div class="dborder"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tm_pb_section  tm_pb_section_0 tm_section_regular tm_section_transparent">
+        <div class="row tm_pb_row tm_pb_row_0 tm_pb_row_fullwidth tm_pb_col_padding_reset">
+            <div class="container">
+                @*paragrap 1*@
+                <div class="row">
+                    <div class="row tm_pb_row tm_pb_row_0 tm_pb_row_fullwidth tm_pb_col_padding_reset">
+                        <div class="product2-row2">
+                            <p>Merchants can use POinS Link safely and securely, with the peace of mind knowing that they are not put into a central
+                            directory with their competitors; and their members, sales and confidential data are not held by the directory and exposed
+                            to their competitors.</p>
+                        </div>
+                    </div>
+                </div>
+                @*paragrap 2*@
+                <div class="row">
+                    <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img class="product2-row2-img" src="/Images/8.jpg" alt="">
+                    </div>
+                    <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="product2-row2-content">
+                            <span>
+                                Merchants are not forced to accept any onerous promotion
+                                terms from third party merchant-consolidating companies,
+                                and they are free to set their own loyalty, promotions
+                                and membership rules.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                @*paragrap 3*@
+                <div class="row">
+                    <div class="product2-row3">
+                        <img src="/Images/Poins-product3.jpg" alt="" class="desktop">
+                        <img src="~/Images/Poins-product3-2.jpg" alt="" class="mobile">                       
+                    </div>
+                </div>
+                @*paragrap 4*@
+                <div class="row tm_pb_row tm_pb_row_1  dconten4">
+                    <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="product2-row3-1">
+                            POinS Link is POS agnostic, and can be used regardless
+                            of the POS system the merchant uses.
+                            Merchants decide how they want to use it, who can view it,
+                            and what they use it for.
+                        </div>
+                    </div>
+                    <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 product2-row3-2">
+                        <img src="~/Images/7.jpg" alt="">
+                    </div>
+                </div>
+                @*paragrap 5*@
+                <div class="row tm_pb_row tm_pb_row_1">
+                    <div class="product2-row4">
+                        <img src="~/Images/64072275-Syda-Productions-students-social-media.jpg" alt="" class="desktop">
+                        <img src="~/Images/a2.jpg" alt="" class="mobile">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product2-row5-2">
+        Merchants use POinS Link to independently manage the following areas:
+    </div>
+
+    <div class="product2-row5">
+        <div class="Slider-PoinsLink sliderPoins1" >
+                <div class="silder">
+                    <div class="divslide">                                           
+                        <div class="slide-img">
+                            <img src="@Url.Content("~/Images/SlidePoinsLinks/1.png")" />
+                        </div>
+                        <div class="slie-conten">
+                            <p class="product2-row5-1">
+                                Customer Details and <br />Membership Lists
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+               </div>
+            
+            <div class="silder">
+                <div class="divslide">
+                    <div class="slide-img">
+                        <img src="@Url.Content("~/Images/SlidePoinsLinks/2.png")" />
+                    </div>
+                    <div class="slie-conten">
+                        <p class="product2-row5-1">
+                            Membership and <br />Loyalty Reward Programs
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="silder">
+                <div class="divslide">
+                    <div class="slide-img">
+                        <img src="@Url.Content("~/Images/SlidePoinsLinks/3.png")" />
+                    </div>
+                    <div class="slie-conten">
+                        <p class="product2-row5-1">
+                            Promotions, Vouchers and <br />Discount Programs
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+               <div class="silder">
+                    <div class="divslide">
+                        <div class="slide-img">
+                            <img src="@Url.Content("~/Images/SlidePoinsLinks/4.png")" />
+                        </div>
+                        <div class="slie-conten">
+                            <p class="product2-row5-1">
+                                Gift Cards
+                            </p>
+                        </div>
+                    </div>
+                   <div class="clear"></div>
+                </div>
+            <div class="silder">
+                <div class="divslide">
+                    <div class="slide-img">
+                        <img src="@Url.Content("~/Images/SlidePoinsLinks/5.png")" />
+                    </div>
+                    <div class="slie-conten">
+                        <p class="product2-row5-1">
+                            Reports and Data Analysis
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="silder">
+                <div class="divslide">
+                    <div class="slide-img">
+                        <img src="@Url.Content("~/Images/SlidePoinsLinks/6.png")" />
+                    </div>
+                    <div class="slie-conten">
+                        <p class="product2-row5-1">
+                            POS and Payment Gateway <br />Integrations
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="silder">
+                <div class="divslide">
+                    <div class="slide-img">
+                        <img src="@Url.Content("~/Images/SlidePoinsLinks/7.png")" />
+                    </div>
+                    <div class="slie-conten">
+                        <p class="product2-row5-1">
+                            E-commerce and Delivery
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="silder">
+                <div class="divslide">
+                    <div class="slide-img">
+                        <img src="@Url.Content("~/Images/SlidePoinsLinks/8.png")" />
+                    </div>
+                    <div class="slie-conten">
+                        <p class="product2-row5-1">
+                            Queue Management System <br />and Procedures
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="silder">
+                <div class="divslide">
+                    <div class="slide-img">
+                        <img src="@Url.Content("~/Images/SlidePoinsLinks/9.png")" />
+                    </div>
+                    <div class="slie-conten">
+                        <p class="product2-row5-1">
+                            Marketing Events <br />and Customer Notifications
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>            
+      </div>
+    </div>
+
+
+    <div style="clear:both"></div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.Slider-PoinsLink').bxSlider({
+           // slideWidth: 370,
+           // minSlides: 2,
+            maxSlides: 1,
+            slideMargin:10,
+            auto: true,
+            touchEnabled: false,
+            pager: true,
+            useCSS: true,
+        });
+     
+    })
+</script>

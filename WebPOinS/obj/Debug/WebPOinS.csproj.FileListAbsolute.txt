@@ -1,0 +1,185 @@
+D:\Poins page\WebPOinS\bin\ApplicationInsights.config
+D:\Poins page\WebPOinS\bin\roslyn\csc.exe
+D:\Poins page\WebPOinS\bin\roslyn\csc.exe.config
+D:\Poins page\WebPOinS\bin\roslyn\csc.rsp
+D:\Poins page\WebPOinS\bin\roslyn\csi.exe
+D:\Poins page\WebPOinS\bin\roslyn\csi.exe.config
+D:\Poins page\WebPOinS\bin\roslyn\csi.rsp
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Poins page\WebPOinS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.AppContext.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Collections.Immutable.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Console.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Diagnostics.Process.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.IO.Compression.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.IO.FileSystem.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.IO.Pipes.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Security.AccessControl.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Security.Claims.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Threading.Thread.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.ValueTuple.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Xml.XPath.dll
+D:\Poins page\WebPOinS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Poins page\WebPOinS\bin\roslyn\vbc.exe
+D:\Poins page\WebPOinS\bin\roslyn\vbc.exe.config
+D:\Poins page\WebPOinS\bin\roslyn\vbc.rsp
+D:\Poins page\WebPOinS\bin\roslyn\VBCSCompiler.exe
+D:\Poins page\WebPOinS\bin\roslyn\VBCSCompiler.exe.config
+D:\Poins page\WebPOinS\bin\WebPOinS.dll.config
+D:\Poins page\WebPOinS\bin\WebPOinS.dll
+D:\Poins page\WebPOinS\bin\WebPOinS.pdb
+D:\Poins page\WebPOinS\bin\Antlr3.Runtime.dll
+D:\Poins page\WebPOinS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Poins page\WebPOinS\bin\Microsoft.AI.DependencyCollector.dll
+D:\Poins page\WebPOinS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Poins page\WebPOinS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Poins page\WebPOinS\bin\Microsoft.AI.Web.dll
+D:\Poins page\WebPOinS\bin\Microsoft.AI.WindowsServer.dll
+D:\Poins page\WebPOinS\bin\Microsoft.ApplicationInsights.dll
+D:\Poins page\WebPOinS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Poins page\WebPOinS\bin\Microsoft.Web.Infrastructure.dll
+D:\Poins page\WebPOinS\bin\Newtonsoft.Json.dll
+D:\Poins page\WebPOinS\bin\System.Web.Helpers.dll
+D:\Poins page\WebPOinS\bin\System.Web.Mvc.dll
+D:\Poins page\WebPOinS\bin\System.Web.Optimization.dll
+D:\Poins page\WebPOinS\bin\System.Web.Razor.dll
+D:\Poins page\WebPOinS\bin\System.Web.WebPages.Deployment.dll
+D:\Poins page\WebPOinS\bin\System.Web.WebPages.dll
+D:\Poins page\WebPOinS\bin\System.Web.WebPages.Razor.dll
+D:\Poins page\WebPOinS\bin\WebGrease.dll
+D:\Poins page\WebPOinS\bin\WebPOinS.Shared.dll
+D:\Poins page\WebPOinS\bin\WebPOinS.Shared.pdb
+D:\Poins page\WebPOinS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Poins page\WebPOinS\bin\System.Web.Helpers.xml
+D:\Poins page\WebPOinS\bin\System.Web.Mvc.xml
+D:\Poins page\WebPOinS\bin\System.Web.Optimization.xml
+D:\Poins page\WebPOinS\bin\System.Web.Razor.xml
+D:\Poins page\WebPOinS\bin\System.Web.WebPages.xml
+D:\Poins page\WebPOinS\bin\System.Web.WebPages.Deployment.xml
+D:\Poins page\WebPOinS\bin\System.Web.WebPages.Razor.xml
+D:\Poins page\WebPOinS\bin\Antlr3.Runtime.pdb
+D:\Poins page\WebPOinS\bin\Newtonsoft.Json.xml
+D:\Poins page\WebPOinS\bin\Microsoft.ApplicationInsights.xml
+D:\Poins page\WebPOinS\bin\Microsoft.AI.DependencyCollector.xml
+D:\Poins page\WebPOinS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Poins page\WebPOinS\bin\Microsoft.AI.WindowsServer.xml
+D:\Poins page\WebPOinS\bin\Microsoft.AI.Web.xml
+D:\Poins page\WebPOinS\obj\Debug\WebPOinS.csprojResolveAssemblyReference.cache
+D:\Poins page\WebPOinS\obj\Debug\WebPOinS.csproj.CoreCompileInputs.cache
+D:\Poins page\WebPOinS\obj\Debug\WebPOinS.dll
+D:\Poins page\WebPOinS\obj\Debug\WebPOinS.pdb
+D:\NuWeb.Poins_page\WebPOinS\bin\ApplicationInsights.config
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\csc.exe
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\csc.exe.config
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\csc.rsp
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\csi.exe
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\csi.exe.config
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\csi.rsp
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.AppContext.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Collections.Immutable.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Console.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Diagnostics.Process.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.IO.Compression.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.IO.FileSystem.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.IO.Pipes.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Reflection.Metadata.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Security.AccessControl.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Security.Claims.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Security.Principal.Windows.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Threading.Thread.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.ValueTuple.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Xml.XPath.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\vbc.exe
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\vbc.exe.config
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\vbc.rsp
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\VBCSCompiler.exe
+D:\NuWeb.Poins_page\WebPOinS\bin\roslyn\VBCSCompiler.exe.config
+D:\NuWeb.Poins_page\WebPOinS\bin\WebPOinS.dll.config
+D:\NuWeb.Poins_page\WebPOinS\bin\WebPOinS.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\WebPOinS.pdb
+D:\NuWeb.Poins_page\WebPOinS\bin\Antlr3.Runtime.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.DependencyCollector.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.Web.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.WindowsServer.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.ApplicationInsights.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.Web.Infrastructure.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\Newtonsoft.Json.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.Helpers.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.Mvc.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.Optimization.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.Razor.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.WebPages.Deployment.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.WebPages.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.WebPages.Razor.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\WebGrease.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\WebPOinS.Shared.dll
+D:\NuWeb.Poins_page\WebPOinS\bin\WebPOinS.Shared.pdb
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.Helpers.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.Mvc.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.Optimization.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.Razor.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.WebPages.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.WebPages.Deployment.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\System.Web.WebPages.Razor.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\Antlr3.Runtime.pdb
+D:\NuWeb.Poins_page\WebPOinS\bin\Newtonsoft.Json.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.ApplicationInsights.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.DependencyCollector.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.WindowsServer.xml
+D:\NuWeb.Poins_page\WebPOinS\bin\Microsoft.AI.Web.xml
+D:\NuWeb.Poins_page\WebPOinS\obj\Debug\WebPOinS.csprojResolveAssemblyReference.cache
+D:\NuWeb.Poins_page\WebPOinS\obj\Debug\WebPOinS.csproj.CoreCompileInputs.cache
+D:\NuWeb.Poins_page\WebPOinS\obj\Debug\WebPOinS.csproj.CopyComplete
+D:\NuWeb.Poins_page\WebPOinS\obj\Debug\WebPOinS.dll
+D:\NuWeb.Poins_page\WebPOinS\obj\Debug\WebPOinS.pdb
